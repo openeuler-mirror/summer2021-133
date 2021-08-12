@@ -9,15 +9,11 @@ https://gitee.com/openeuler-competition/summer-2021/issues/I3R6C9
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+[参考链接](https://innovation64.github.io/_posts/2021-07-13-openEuler%E4%B8%8BTiDB%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E6%8C%87%E5%AF%BC%E4%B9%A6/)
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+[参考链接]()
 
 #### 参与贡献
 
