@@ -28,7 +28,7 @@ if [ $? -ne 0 ]; then
 		MYSQL_BIN=/usr/bin/mysql
 	fi
 fi
-DATA_PATH=/home/tidb_data
+DATA_PATH=/tidb_data
 BACKUP_DATA_PATH=$DATA_PATH/data_backup
 
 ps -ef | grep pd-server | grep -v grep | awk '{print $2}' | xargs kill -9
