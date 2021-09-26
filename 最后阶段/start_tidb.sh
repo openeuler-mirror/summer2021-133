@@ -13,7 +13,7 @@
 PD_DIR=/tidb-deploy/pd-2379
 TIKV_DIR=/tidb-deploy
 TIDB_DIR=/tidb-deploy/tidb-4000
-DATA_PATH=/tidb_data
+DATA_PATH=/tidb-data
 IP_CONFIG=14.0.0.13
 
 ps -ef | grep pd-server | grep -v grep | awk '{print $2}' | xargs kill -9
@@ -49,7 +49,7 @@ $TIKV_DIR/tikv-20162/bin/tikv-server --pd-endpoints="$IP_CONFIG:2379" \
     --data-dir=$DATA_PATH/tikv3 \
     --log-file=$TIKV_DIR/tikv-20162/log/tikv.log &
 sleep 5
-$TIDB_DIR/bin/tidb-server --store=tikv \
+$TIDB_DIR/bin/tidb-server --store="tikv" \
     --path="$IP_CONFIG:2379" \
     --log-file=$TIDB_DIR/log/tidb.log \
     -L=error \
