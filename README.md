@@ -77,6 +77,6 @@ PS：附上项目连接
 
 [ Summer2021-No.133 为openEuler操作系统中安装的TiDB应用进行性能调优
 ](https://gitee.com/openeuler-competition/summer2021-133)
-[]()
+[210010834](https://gitlab.summer-ospp.ac.cn/summer2021/210010834)
 
 
