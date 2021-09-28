@@ -1,0 +1,77 @@
+[readpool.unified]
+max-thread-count = 7
+
+[readpool.storage]
+
+[readpool.coprocessor]
+
+[server]
+grpc-concurrency = 8
+scheduler-worker-pool-size = 2
+
+[storage]
+
+[storage.block-cache]
+shared = false
+capacity = "4G"
+
+[pd]
+
+[raftstore]
+sync-log = false
+region-max-size = "200MB"
+store-pool-size = 10
+
+[coprocessor]
+
+[rocksdb]
+enable-statistics = false
+max-background-jobs = 6
+max-sub-compactions = 9
+
+[rocksdb.titan]
+
+[rocksdb.defaultcf]
+bloom-filter-bits-per-key = 99
+disable-auto-compactions = true
+optimize-filters-for-hits = true
+block-size = "967KB"
+write-buffer-size = "143MB"
+max-bytes-for-level-base = "256MB"
+target-file-size-base = "128MB"
+level0-slowdown-writes-trigger = 38
+level0-stop-writes-trigger = 128
+max-write-buffer-number = 3
+
+[rocksdb.defaultcf.titan]
+
+[rocksdb.writecf]
+write-buffer-size = "143MB"
+max-bytes-for-level-base = "256MB"
+target-file-size-base = "128MB"
+
+[rocksdb.lockcf]
+
+[raftdb]
+enable-statistics = false
+max-background-jobs = 6
+
+[raftdb.defaultcf]
+write-buffer-size = "143MB"
+max-bytes-for-level-base = "256MB"
+target-file-size-base = "128MB"
+
+[raft-engine]
+
+[security]
+
+[security.encryption]
+
+[import]
+
+[backup]
+
+[pessimistic-txn]
+
+[gc]
+
