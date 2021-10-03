@@ -37,6 +37,7 @@ unset http_proxy
 unset https_proxy
 
 sed -i "s/^mysql-host=.*/mysql-host=${DB_HOST}/g" config
+sed -i "s/^IP_CONFIG=.*/IP_CONFIG=${DB_HOST}/g" start_tidb.sh
 
 sh start_tidb.sh 
 sleep 60

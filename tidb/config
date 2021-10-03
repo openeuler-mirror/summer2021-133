@@ -1,4 +1,4 @@
-mysql-host=14.0.0.13
+mysql-host=
 mysql-port=4000
 mysql-user=root
 mysql-password=

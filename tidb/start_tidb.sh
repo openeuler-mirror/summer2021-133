@@ -14,7 +14,7 @@ PD_DIR=/tidb-deploy/pd-2379
 TIKV_DIR=/tidb-deploy
 TIDB_DIR=/tidb-deploy/tidb-4000
 DATA_PATH=/tidb-data
-IP_CONFIG=14.0.0.13
+IP_CONFIG=
 
 ps -ef | grep pd-server | grep -v grep | awk '{print $2}' | xargs kill -9
 ps -ef | grep tikv-server | grep -v grep | awk '{print $2}' | xargs kill -9
