@@ -52,9 +52,9 @@ openEuler操作系统自带的A-Tune工具提供了系统性能自动调优tunin
     - tidb在openeuler上的安装与使用指南与踩坑报告
     - sysbench 在openeuler上的安装测试与踩坑报告
     - A-tune在服务器上的安装与调试更新
-    - 配置编写tidb细节调优脚本并对原脚本进行优化
+    - 完成A-Tune上对tidb服务进行自动调优的脚本编写以及调试，相关代码已经合入到A-Tune代码仓
     - 输出tidb基线数据
-    - 输出tidb优化数据 
+    - 输出tidb优化数据
 - 方案进度：
 >进度与预期基本相符
 - 遇到的问题及解决方案：
